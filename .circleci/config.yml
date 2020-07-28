@@ -12,7 +12,7 @@ jobs:
     steps:
 
       # install git
-      - run: sudo apt update && sudo apt add git
+      - run: sudo apt update && sudo apt install git
 
       # checkout the repository
       - checkout
