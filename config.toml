@@ -1,4 +1,4 @@
-baseurl = "/fandb"
+baseurl = "/"
 languageCode = "en-us"
 title = "Fashion & Beauty"
 theme = "hugo-future-imperfect"
