@@ -1,0 +1,35 @@
+@import url(//fonts.googleapis.com/css?family=Kalam);
+
+* {
+  letter-spacing: 0 !important;
+  word-spacing: 0.2em;
+}
+
+#header {
+  background-color: #fff7e0;
+  /*background-color: #f4c430;*/
+}
+
+body {
+  background-color: #fff7e0;
+}
+
+h1 a {
+  font-family: 'Kalam';
+  font-size: 1.2em !important;
+  margin-left: 2em;
+}
+
+.links ul li a {
+  letter-spacing: 0 !important;
+  /*font-family: 'Kalam' !important*/
+  font-size: 1em !important;
+}
+
+#intro h2 {
+  font-family: 'Kalam' !important;
+}
+
+#intro p {
+  font-size: 1em !important;  
+}
