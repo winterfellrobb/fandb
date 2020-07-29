@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Fashion & Beauty"
+languageCode = "hi"
+title = "इंडीलाइफ"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -13,11 +13,11 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "Fashin & Beauty"
+  description          = "इंडियन लाइफस्टाइल ब्लॉग"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Fashion & Beauty"
+  navbarTitle          = "इंडीलाइफ"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = "/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -57,14 +57,14 @@ canonifyURLs = true
   # files by adding the value, "default".
   # customCSS            = ["default", "/path/to/file"]
   # customJS             = ["default", "/path/to/file"]
-  customCSS            = ["default"]
+  customCSS            = ["css/custom.css", "default"]
   customJS             = ["default"]
 
   # options for highlight.js (version, additional languages, and theme)
-  disable_highlight = false # set to true to disable Highlight
+  disable_highlight = true # set to true to disable Highlight
   highlightjsVersion = "9.11.0"
   highlightjsCDN = "//cdn.bootcss.com"
-  highlightjsLang = ["r", "yaml", "css"]
+  highlightjsLang = []
   highlightjsTheme = "github"
   MathJaxCDN = "//cdn.bootcss.com"
   MathJaxVersion = "2.7.1"
@@ -87,16 +87,16 @@ canonifyURLs = true
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "F&B"
+  header    = "इंडीलाइफ"
 
-  paragraph = "Delve into the world of latest Indian Fashion and beauty tips"
+  paragraph = "पाए लेटेस्ट फैशन, ब्यूटी टिप्स और कुकिंग रेसेपी"
 
   # about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "/img/indylife.png"
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
@@ -111,7 +111,7 @@ canonifyURLs = true
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
 [[menu.main]]
-  name = "Home"
+  name = "होम"
   url = "/"
   identifier = "fa fa-home"
   weight = 1
@@ -135,7 +135,7 @@ canonifyURLs = true
 #  weight = 4
 
 [[menu.main]]
-  name = "Categories"
+  name = "काटेगौरीस"
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
