@@ -8,7 +8,7 @@ title = "शाही पनीर रेसिपी (तस्वीरों 
 type = "post"
 featured = "shahi-paneer-10.jpg"
 featuredpath = "img/shahi-paneer"
-featuredalt = "क्ले मास्क"
+featuredalt = "शाही पनीर"
 +++
 
 स्वादिष्ट मलाईदार रेस्तरां शैली शाही पनीर। शाही व्यंजन मुगलों के शाही रसोई में उत्पन्न हुए थे और मांस आधारित थे।     
